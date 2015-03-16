@@ -8,7 +8,7 @@ require 'scraperwiki/simple_html_dom.php';
 
 //select "swdata2"."id" from `swdata2` left join "swdata1" on "swdata2"."id"="swdata1"."id" where "swdata1"."id" is null
 
-scraperwiki::attach("uj-hasznaltauto-kodok", "src");
+//scraperwiki::attach("uj-hasznaltauto-kodok", "src");
 $newvalue=scraperwiki::select("* from src.swvariables");
 
 if ($newvalue[0]['value_blob']=="1")
