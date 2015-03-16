@@ -1,8 +1,8 @@
 <?php
 require 'scraperwiki.php';
 
-scraperwiki::sqliteexecute("drop table if exists swdata"); 
-scraperwiki::sqlitecommit();
+//scraperwiki::sqliteexecute("drop table if exists swdata"); 
+//scraperwiki::sqlitecommit();
 
 require 'scraperwiki/simple_html_dom.php'; 
 
