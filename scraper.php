@@ -1,4 +1,5 @@
 <?php
+require 'scraperwiki.php';
 
 scraperwiki::sqliteexecute("drop table if exists swdata"); 
 scraperwiki::sqlitecommit();
